@@ -1,1 +1,74 @@
+#Classroom Student Distribution 
 
+students = 125
+capacity = 30
+
+# Full classes and remaining students
+full_classes = students // capacity
+remaining_students = students % capacity
+
+print("Full Classes =", full_classes)
+print("Students without class =", remaining_students)
+
+
+         #Salary Calculation
+
+# Given values
+basic_salary = 25000
+hra = (20 / 100) * basic_salary
+bonus = 5000
+
+# Total salary
+total_salary = basic_salary + hra + bonus
+
+print("HRA =", hra)
+print("Total Monthly Salary =", total_salary)
+
+
+#Shopping Bill Calculation 
+
+# Prices and quantities
+notebooks = 3 * 45
+pens = 2 * 20
+
+# Total bill
+total_bill = notebooks + pens
+
+# Remaining balance after paying ₹500
+balance = 500 - total_bill
+
+print("Total Bill =", total_bill)
+print("Remaining Balance =", balance)
+
+
+# Program to Calculate Profit and Loss based on Cost Price and Selling Price
+
+cost_price = float(input("Enter the cost price: "))
+selling_price = float(input("Enter the selling price: "))
+ 
+ # Ensure that cost price and selling price are positive numbers
+if cost_price > 0 and selling_price > 0:
+
+    if selling_price > cost_price:
+        profit = selling_price - cost_price
+        print("Profit =", profit)
+    elif cost_price > selling_price:
+        loss = cost_price - selling_price
+        print("Loss =", loss)
+    else:
+        print("No profit, no loss.")
+
+
+        # Triangle Angle Check
+
+angle1 = float(input("Enter the first angle of the triangle: "))
+angle2 = float(input("Enter the second angle of the triangle: "))
+angle3 = float(input("Enter the third angle of the triangle: "))
+
+if angle1 > 0 and angle2 > 0 and angle3 > 0:
+    total_angle = angle1 + angle2 + angle3
+
+    if total_angle == 180:
+        print("The angles form a valid triangle.")
+    else:
+        print("The angles do not form a valid triangle.")
