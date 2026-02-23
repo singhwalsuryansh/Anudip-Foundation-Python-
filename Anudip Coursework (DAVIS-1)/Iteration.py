@@ -1,0 +1,123 @@
+  # 1. Program to print numbers from 1 to N using a for loop
+
+n = int(input("Enter a number: "))  # Taking input from user
+
+# Loop runs from 1 to n (inclusive)
+for i in range(1, n + 1):
+    print(i)  # Printing each number
+
+
+    # 2. Program to calculate sum of first N natural numbers
+
+n = int(input("Enter a number: "))
+total = 0  # Variable to store sum
+
+# Adding numbers from 1 to n
+for i in range(1, n + 1):
+    total += i  # total = total + i
+
+print("Sum:", total)
+
+
+
+# 3.Program to calculate factorial of a number
+
+n = int(input("Enter a number: "))
+fact = 1  # Initial factorial value
+
+# Multiply numbers from 1 to n
+for i in range(1, n + 1):
+    fact *= i  # fact = fact * i
+
+print("Factorial:", fact)
+
+
+# 4.Program to reverse a number using while loop
+
+num = int(input("Enter a number: "))
+reverse = 0  # Store reversed number
+
+# Loop runs until number becomes 0
+while num > 0:
+    digit = num % 10          # Extract last digit
+    reverse = reverse * 10 + digit  # Append digit
+    num //= 10                # Remove last digit
+
+print("Reversed number:", reverse)
+
+
+# 5. Program to check whether a number is prime
+
+num = int(input("Enter a number: "))
+is_prime = True  # Assume number is prime
+
+if num <= 1:
+    is_prime = False  # 0 and 1 are not prime
+else:
+    # Check divisibility from 2 to num-1
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break  # Exit loop if divisible
+
+# Display result
+if is_prime:
+    print("Prime number")
+else:
+    print("Not a prime number")
+
+
+    # 6. Program to print multiplication table of a number
+
+num = int(input("Enter a number: "))
+
+# Loop from 1 to 10
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+
+    # 7.Program to print first N Fibonacci numbers
+
+n = int(input("Enter number of terms: "))
+a, b = 0, 1  # First two numbers
+
+# Loop to generate series
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b  # Update values
+
+
+
+# 8. Program to count the number of digits in a number
+
+num = int(input("Enter a number: "))
+count = 0  # Counter variable
+
+# Loop until number becomes 0
+while num > 0:
+    num //= 10  # Remove last digit
+    count += 1  # Increase count
+
+print("Total digits:", count)
+
+
+
+# 9. Program to print a pattern of stars
+rows = int(input("Enter number of rows: "))
+
+# Outer loop controls rows
+for i in range(1, rows + 1):
+    print("*" * i)  # Print stars
+
+
+
+    # 10.Program to print number pyramid pattern
+
+rows = int(input("Enter number of rows: "))
+
+# Outer loop for rows
+for i in range(1, rows + 1):
+    # Inner loop for numbers
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()  # Move to next line
