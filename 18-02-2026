@@ -10,6 +10,11 @@ remaining_students = students % capacity
 print("Full Classes =", full_classes)
 print("Students without class =", remaining_students)
 
+# Output:
+# Full Classes = 4
+# Students without class = 5
+-----------------------------------------------------------------------------------
+
 
          #Salary Calculation
 
@@ -23,6 +28,12 @@ total_salary = basic_salary + hra + bonus
 
 print("HRA =", hra)
 print("Total Monthly Salary =", total_salary)
+
+# Output:
+# HRA = 5000.0
+# Total Monthly Salary = 35000.0
+-----------------------------------------------------------------------------------
+
 
 
 #Shopping Bill Calculation 
@@ -39,6 +50,12 @@ balance = 500 - total_bill
 
 print("Total Bill =", total_bill)
 print("Remaining Balance =", balance)
+
+# Output:
+# Total Bill = 235
+# Remaining Balance = 265
+-----------------------------------------------------------------------------------
+
 
 
 # Program to Calculate Profit and Loss based on Cost Price and Selling Price
@@ -58,6 +75,13 @@ if cost_price > 0 and selling_price > 0:
     else:
         print("No profit, no loss.")
 
+        # Output:
+# Enter the cost price: 100
+# Enter the selling price: 150
+# Profit = 50.0
+
+------------------------------------------------------------------------------------------
+
 
         # Triangle Angle Check
 
@@ -72,3 +96,10 @@ if angle1 > 0 and angle2 > 0 and angle3 > 0:
         print("The angles form a valid triangle.")
     else:
         print("The angles do not form a valid triangle.")
+
+
+        # Output:
+# Enter the first angle of the triangle: 60
+# Enter the second angle of the triangle: 60
+# Enter the third angle of the triangle: 60
+# The angles form a valid triangle.
