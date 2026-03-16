@@ -1,6 +1,3 @@
-
----
-
 # Data Visualization Training – Professional Portfolio
 
 ![Course](https://img.shields.io/badge/Course-DAVIS--1-blue)
@@ -9,7 +6,6 @@
 ![Semester](https://img.shields.io/badge/Semester-4th-yellow)
 ![Training](https://img.shields.io/badge/Training-Data%20Visualization-red)
 
----
 
 # Overview
 
@@ -21,7 +17,6 @@ The objective of this program was to develop practical skills in **data analysis
 
 The program incorporated several analytical tools including **NumPy**, **Pandas**, **Matplotlib**, **Microsoft Excel**, **SQL**, and **Microsoft Power BI** to understand the complete lifecycle of data analytics.
 
----
 
 # Training Information
 
@@ -35,7 +30,6 @@ The program incorporated several analytical tools including **NumPy**, **Pandas*
 | Semester        | 4th Semester                                   |
 | Training Domain | Data Visualization and Data Analytics          |
 
----
 
 # Training Objectives
 
@@ -48,7 +42,6 @@ The main objectives of the training program were:
 * Develop **interactive dashboards and reports**
 * Gain practical experience with modern **data analytics tools**
 
----
 
 # Technology Stack
 
@@ -77,9 +70,7 @@ The main objectives of the training program were:
   * Pie Charts
   * Histograms
 
----
-
-## Data Analysis Tools
+## Data Analytics Tools
 
 ### Microsoft Excel
 
@@ -107,8 +98,6 @@ Common SQL tasks included:
 * Aggregation using functions such as COUNT, SUM, and AVG
 * Combining datasets using JOIN operations
 
----
-
 ## Business Intelligence
 
 ### Microsoft Power BI
@@ -121,8 +110,6 @@ Key features explored:
 * Interactive visualizations
 * Dashboard design
 * Filters, slicers, and drill-down analysis
-
----
 
 # Data Analytics Workflow
 
@@ -151,7 +138,6 @@ Dashboard Development
 Insight Generation
 ```
 
----
 
 # Skills Developed
 
@@ -166,7 +152,6 @@ The training helped develop several professional skills including:
 * Dashboard Development using Power BI
 * Data Storytelling and Insight Communication
 
----
 
 # Learning Outcomes
 
@@ -178,7 +163,6 @@ After completing the training program, the following competencies were achieved:
 * Capability to design interactive dashboards
 * Knowledge of transforming raw data into actionable insights
 
----
 
 # Conclusion
 
@@ -186,6 +170,5 @@ The Data Visualization Training Program provided comprehensive exposure to moder
 
 The skills and knowledge gained during this training contribute to building a strong foundation in **data analytics, visualization, and data-driven decision-making**, which are essential competencies in the evolving field of data science.
 
----
 
 
